@@ -38,13 +38,21 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [x] Explain the difference between `Relational Databases` and `SQL`.
 
-- [ ] Why do tables need a `primary key`?
+RDBMS is the relational database management software system itself (manages storage, querying, updating etc). SQL is the language used to interact with the system.
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+- [x] Why do tables need a `primary key`?
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+PK is a relational db table column designated to uniquely id all table records. 
+
+- [x] What is the name given to a table column that references the primary key on another table.
+
+Foreign key. 
+
+- [x] What do we need in order to have a _many to many_ relationship between two tables.
+
+Foreign key columns in a junction table, referencing the the id from each of the two seperate tables, then joining the tables using the foreign keys.
 
 ## Minimum Viable Product
 
